@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: usenkhan-yersultan-devops
+    container_name: usenkhan-yersultan-container
+    environment:
+      STUDENT_NAME: Yersultan
+      STUDENT_SURNAME: Usenkhan
+      STUDENT_GROUP: IT2-2310
+      STUDENT_ID: "38064"
